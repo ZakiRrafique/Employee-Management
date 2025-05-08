@@ -1,0 +1,108 @@
+.dashboard-layout {
+    display: flex;
+    background-color: #001f3f; 
+    color: white;
+    min-height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #013220;
+    padding: 20px;
+  }
+  
+  .sidebar-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav li {
+    margin: 15px 0;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .sidebar-nav li:hover {
+    margin: 15px 0;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .dashboard-main2 {
+    flex-grow: 1;
+    padding: 30px;
+    background: #001f3f; 
+  }
+  
+  .dashboard-header h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-intro {
+    color: white;
+    font-weight: 500;
+  }
+  
+  .dashboard-content {
+    margin-top: 30px;
+  }
+  
+  .dashboard-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-card {
+    background-color: #012b45;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  }
+  
+  .dashboard-card h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-card-text {
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-btn {
+    background-color: #005f4f;
+    color: white !important;
+    border: none;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-btn link{
+    color: white;
+  }
+  .dashboard-btn:hover {
+    background-color: #007f6f;
+  }
+  

@@ -1,0 +1,117 @@
+.dashboard-layout {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #2e3b4e;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sidebar-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav li {
+    margin: 15px 0;
+  }
+  
+  .sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+  }
+  
+  .sidebar-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 30px;
+    background-color: #f4f6f8;
+  }
+  
+  .dashboard-header {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 28px;
+    color: #2e3b4e;
+  }
+  
+  .dashboard-intro {
+    color: #555;
+  }
+  
+  .dashboard-content {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-card input,
+  .form-card select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .form-card input:focus,
+  .form-card select:focus {
+    border-color: #007bff;
+  }
+  
+  .submit-btn {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .feedback-msg {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .feedback-msg.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .feedback-msg.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  

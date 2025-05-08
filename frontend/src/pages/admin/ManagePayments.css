@@ -1,0 +1,103 @@
+.dashboard-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background: #1f1f1f;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar-title {
+    margin-top: 0;
+  }
+  
+  .sidebar-nav {
+    margin-top: 20px;
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar-nav li {
+    margin: 10px 0;
+  }
+  
+  .sidebar-nav li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav li a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar-nav li.active a {
+    font-weight: bold;
+    color: #00c9a7;
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    background: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #ccc;
+  }
+  
+  .dashboard-intro {
+    color: #555;
+    font-size: 1.1em;
+  }
+  
+  .dashboard-content {
+    background: white;
+    min-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .payments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .payments-table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    color: rgb(1, 53, 70); }
+  
+  th {
+    background-color: #f2f2f2;
+    
+  }
+  
+  .delete-btn {
+    padding: 8px 12px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e60000;
+  }
+  

@@ -1,0 +1,147 @@
+.dashboard-layout {
+  display: flex;
+  background-color: #001f3f; /* Deep Blue */
+  color: white;
+  min-height: 100vh;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #013220; /* Deep Green */
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin: 15px 0;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+/* Main Content */
+.dashboard-mains {
+  flex-grow: 1;
+  padding: 30px;
+  background: #001f3f;
+}
+
+.dashboard-header h1 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.dashboard-intro {
+  font-weight: 500;
+  color: white;
+}
+
+.dashboard-content {
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #012b45;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Table */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+.employee-table th,
+.employee-table td,.items {
+  padding: 12px 15px;
+  border-bottom: 1px solid #0d3b5f;
+  color: white;;
+}
+
+.employee-table th {
+  background-color: white;
+  font-weight: 600;
+  text-align: left;
+}
+
+.items td {
+  color: #fff !important;
+}
+
+.employee-table tr:hover {
+  background-color: #01415d;
+}
+
+/* Action and Delete Buttons */
+.action-btn, .delete-btn {
+  background-color: #005f4f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 6px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #007f6f;
+}
+
+.delete-btn {
+  background-color: #8b0000;
+}
+
+.delete-btn:hover {
+  background-color: #a30000;
+}
+
+/* Edit Button */
+.editbtn {
+  background-color: #02263d;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.editbtn:hover {
+  background-color: #2980b9;
+}
+
+/* Table Container (if you need scroll for large data) */
+.table-container {
+  max-height: 300px; 
+  overflow-y: auto;
+  color: white;;
+  border: 1px solid #0d3b5f;
+  border-radius: 10px;
+}
